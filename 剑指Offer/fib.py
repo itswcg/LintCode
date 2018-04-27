@@ -1,3 +1,4 @@
+# 1,1,2,3...
 class Solution:
     def Fibonacci(self, n):
         l = [0, 1]
@@ -7,9 +8,9 @@ class Solution:
 
     def fib1(self, n):
         a, b = 0, 1
-        for i in range(n-2):
+        for i in range(n):
             a, b = b, a+b
-        return b
+        return a
 
     def fib2(self, n):
         if n < 2:
